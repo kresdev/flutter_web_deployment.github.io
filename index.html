@@ -43,9 +43,9 @@
       border-radius: 50%;
       border: 15px solid ;
       border-top: 16px solid #53B6FF;
-      border-right: 16px solid palegreen;
+      border-right: 16px solid white;
       border-bottom: 16px solid #53B6FF;
-      border-left: 16px solid palegreen;
+      border-left: 16px solid white;
       width: 120px;
       height: 120px;
       -webkit-animation: spin 2s linear infinite;
@@ -72,7 +72,7 @@
   </style>
   <style>
     body {
-        /* Bigger than 100% to allow scroll */
+      height: 10vh !important;  /* Bigger than 100% to allow scroll */
       position: static !important;  /* Override absolute from flutter */
       overflow-y: scroll !important; /* Allows verticall scrolling */
       overflow-x: hidden !important;
@@ -90,7 +90,7 @@
     <div class="loader"></div>
   </div>
   <script>
-    var serviceWorkerVersion = '2400846359';
+    var serviceWorkerVersion = '3036046117';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
