@@ -3,30 +3,19 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "bae2512f4ad0705513c4573aaacdee8b",
-"assets/FontManifest.json": "542c9d9141523a7dab194dc7a19586c8",
+  "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
+"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/fonts/Oxygen-Regular.ttf": "61d9daf063ba38f2d05f8adb7267e6fd",
-"assets/fonts/Staatliches-Regular.ttf": "d5746e3b20453d6cee99ab27a0bdf949",
-"assets/images/bosscha.jpg": "8d1fc2320a7eff79e678276df019b783",
-"assets/images/farm-house.jpg": "3190d0f8d8ad8a5bd96a2e206fb96d06",
-"assets/images/floating-market.png": "3825da6a681989426fa55d7493abcf62",
-"assets/images/jalan-asia-afrika.jpg": "bec6a2d8b740356d2dfbb1de0fdc3729",
-"assets/images/kawah-putih.jpg": "a2371babfc2a47b7f07cd21c70c4d7c1",
-"assets/images/museum-geologi.jpg": "feed43fb551fad21fd0b4f40e061c6d3",
-"assets/images/ranca-upas.jpg": "18ec585026e0af3f21db6bb7aaccf2ce",
-"assets/images/stone-garden.jpg": "baece3780756a2cb8b58e3531201f6e3",
-"assets/images/taman-film.jpg": "3c440fc167e79c459af92e62c9b3b400",
-"assets/NOTICES": "a343d01e8cc8e460d0526fb92f70b5f9",
+"assets/NOTICES": "fe2bf348afd51a79388b9bbbdaef0723",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "bdc0ba43cede6c37ade98d5ae75e9d91",
-"/": "bdc0ba43cede6c37ade98d5ae75e9d91",
-"main.dart.js": "cabb268cbd5746b725c0ecf7356c04fc",
-"manifest.json": "a0c5fbe67d97f4c261e2fce42b73a8cd",
-"version.json": "07fb58a28677dc8817b1230bf6a91b82"
+"index.html": "6a17725d13ca5a726c9867800dca357a",
+"/": "6a17725d13ca5a726c9867800dca357a",
+"main.dart.js": "5c6351fa647387cc93a123ce402bd383",
+"manifest.json": "84047bad70aea7b38bc7c7d8213c861c",
+"version.json": "3b986dfa5fa81c70ed1bd158c2369bc8"
 };
 
 // The application shell files that are downloaded before a service worker can

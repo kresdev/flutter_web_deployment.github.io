@@ -1,6 +1,6 @@
 {
-    "name": "Wisata_Bandung",
-    "short_name": "Wisata_Bandung",
+    "name": "tes_appview",
+    "short_name": "tes_appview",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
