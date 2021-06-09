@@ -43,9 +43,9 @@
       border-radius: 50%;
       border: 15px solid ;
       border-top: 16px solid #53B6FF;
-      border-right: 16px solid white;
+      border-right: 16px solid purple;
       border-bottom: 16px solid #53B6FF;
-      border-left: 16px solid white;
+      border-left: 16px solid purple;
       width: 120px;
       height: 120px;
       -webkit-animation: spin 2s linear infinite;
@@ -75,11 +75,12 @@
       height: 100vh;
     }
     body {
-      height: 100%;
-	  position: static;
-	  overflow-y: scroll;
-	  touch-action: pan-y;
-	  overscroll-behavior: none;
+      height: 100% !important;  /* Bigger than 100% to allow scroll */
+      position: static !important;  /* Override absolute from flutter */
+      overflow-y: scroll !important; /* Allows verticall scrolling */
+      overflow-x: hidden !important;
+      touch-action: pan-y !important;  /* Allows vertical scrolling */
+      overscroll-behavior: none; /* Avoid bouncing scrolling on top/bottom edget */
     }
     
   </style>
