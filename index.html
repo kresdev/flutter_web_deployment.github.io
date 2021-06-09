@@ -43,9 +43,9 @@
       border-radius: 50%;
       border: 15px solid ;
       border-top: 16px solid #53B6FF;
-      border-right: 16px solid purple;
+      border-right: 16px solid white;
       border-bottom: 16px solid #53B6FF;
-      border-left: 16px solid purple;
+      border-left: 16px solid white;
       width: 120px;
       height: 120px;
       -webkit-animation: spin 2s linear infinite;
@@ -78,6 +78,8 @@
       height: 100%;
 	  position: static;
 	  overflow-y: scroll;
+	  touch-action: pan-y;
+	  overscroll-behavior: none;
     }
     
   </style>
