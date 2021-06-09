@@ -43,9 +43,9 @@
       border-radius: 50%;
       border: 15px solid ;
       border-top: 16px solid #53B6FF;
-      border-right: 16px solid white;
+      border-right: 16px solid palegreen;
       border-bottom: 16px solid #53B6FF;
-      border-left: 16px solid white;
+      border-left: 16px solid palegreen;
       width: 120px;
       height: 120px;
       -webkit-animation: spin 2s linear infinite;
@@ -70,6 +70,17 @@
       }
     }
   </style>
+  <style>
+    body {
+        /* Bigger than 100% to allow scroll */
+      position: static !important;  /* Override absolute from flutter */
+      overflow-y: scroll !important; /* Allows verticall scrolling */
+      overflow-x: hidden !important;
+      touch-action: pan-y !important;  /* Allows vertical scrolling */
+      overscroll-behavior: none; /* Avoid bouncing scrolling on top/bottom edget */
+    }
+    
+  </style>
 </head>
 <body onload="setTimeout(function() {window.scrollTo(0, 1)}, 0)">
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -79,7 +90,7 @@
     <div class="loader"></div>
   </div>
   <script>
-    var serviceWorkerVersion = '2854852011';
+    var serviceWorkerVersion = '2400846359';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
