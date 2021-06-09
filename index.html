@@ -91,19 +91,18 @@
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
     }
-
+	
+	function hideAddressBar(){
+	setTimeout(window.scrollTo(1,1),0);
+	}
+	window.addEventListener("load",function(){hideAddressBar();});
+	window.addEventListener("orientationchange",function(){hideAddressBar();});
     if ('serviceWorker' in navigator) {
       // Service workers are supported. Use them.
       window.addEventListener('load', function () {
         // Wait for registration to finish before dropping the <script> tag.
         // Otherwise, the browser will load the script multiple times,
-        // potentially different versions.
-
-        setTimeout(function(){
-        // This hides the address bar:
-        window.scrollTo(0, 1);
-        }, 0);
-        
+        // potentially different versions.        
         var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
         navigator.serviceWorker.register(serviceWorkerUrl)
           .then((reg) => {
