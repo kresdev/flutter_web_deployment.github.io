@@ -19,17 +19,17 @@ const RESOURCES = {
 "assets/assets/images/washing-clothes.png": "8ecc62b0e134b71c16de55d45f281d5d",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "a8d58c84ca37f9b96fe48fae0932eddd",
+"assets/NOTICES": "a578c8fa8907485b25012ba462a70e83",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/blitetangga-192.png": "9ca448e03b507bb38184ced0924b439c",
 "icons/blitetangga-512.png": "41857185bc308128d2f896c872a6b00a",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "70499a48818b297625df00f37a5af046",
-"/": "70499a48818b297625df00f37a5af046",
-"main.dart.js": "7ef29e9ac34bfe434ffa844862959076",
-"manifest.json": "b4cdc7342077525b3aee14a5bbf5b142",
+"index.html": "804d8b57a8b050cd8ac8609657852e96",
+"/": "804d8b57a8b050cd8ac8609657852e96",
+"main.dart.js": "901bb03bcb6a2f91782f1f89614c0aa7",
+"manifest.json": "38ef937088e9ed0f177c1b1f734dd14b",
 "version.json": "06eadab671ac5c5ec334427e8a5edd2d"
 };
 
