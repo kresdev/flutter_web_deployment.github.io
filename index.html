@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -20,10 +21,10 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="dicoding_codelab_4">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="apple-mobile-web-app-title" content="blitetangga_new">
+  <link rel="apple-touch-icon" href="icons/blitetangga-192.png">
 
-  <title>Wisata Bandung</title>
+  <title>Blitetangga</title>
   <link rel="manifest" href="manifest.json">
   <style>
     .loading {
@@ -37,41 +38,44 @@
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
     }
-    
+
     .loader {
       border: 16px solid #f3f3f3;
       border-radius: 50%;
-      border: 15px solid ;
-      border-top: 16px solid #53B6FF;
+      border: 15px solid;
+      border-top: 16px solid #F77166;
       border-right: 16px solid white;
-      border-bottom: 16px solid #53B6FF;
+      border-bottom: 16px solid #F77166;
       border-left: 16px solid white;
       width: 120px;
       height: 120px;
       -webkit-animation: spin 2s linear infinite;
       animation: spin 2s linear infinite;
     }
-    
+
     @-webkit-keyframes spin {
       0% {
         -webkit-transform: rotate(0deg);
       }
+
       100% {
         -webkit-transform: rotate(360deg);
       }
     }
-    
+
     @keyframes spin {
       0% {
         transform: rotate(0deg);
       }
+
       100% {
         transform: rotate(360deg);
       }
     }
   </style>
 </head>
-<body onload="setTimeout(function() {window.scrollTo(0, 1)}, 0)">
+
+<body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -79,7 +83,7 @@
     <div class="loader"></div>
   </div>
   <script>
-    var serviceWorkerVersion = '450615253';
+    var serviceWorkerVersion = '1655932032';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -91,18 +95,13 @@
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
     }
-	
-	function hideAddressBar(){
-	setTimeout(window.scrollTo(1,1),0);
-	}
-	window.addEventListener("load",function(){hideAddressBar();});
-	window.addEventListener("orientationchange",function(){hideAddressBar();});
+
     if ('serviceWorker' in navigator) {
       // Service workers are supported. Use them.
       window.addEventListener('load', function () {
         // Wait for registration to finish before dropping the <script> tag.
         // Otherwise, the browser will load the script multiple times,
-        // potentially different versions.        
+        // potentially different versions.
         var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
         navigator.serviceWorker.register(serviceWorkerUrl)
           .then((reg) => {
@@ -148,4 +147,5 @@
     }
   </script>
 </body>
+
 </html>
