@@ -32952,7 +32952,7 @@ P.Kd.prototype={}
 F.BX.prototype={
 O:function(a,b){var s=K.ax(b).af,r=B.f3(s.a),q=B.f3(s.b),p=B.f3(s.c),o=B.f3(s.d),n=B.f3(s.e),m=B.f3(s.f),l=B.f3(s.r),k=B.f3(s.x),j=B.f3(s.y),i=B.f3(s.z),h=B.f3(s.Q)
 k=R.aap(j,i,B.f3(s.ch),h,r,q,p,o,n,m,B.f3(s.cx),l,k)
-return new S.tl(new X.tg(null),X.aeG(null,C.aa.h(0,100),k),!1,null)}}
+return new S.tl(new X.tg(null),X.aeG(null,C.aa.h(0,200),k),!1,null)}}
 R.zw.prototype={
 gaG:function(a){return this.a}}
 Q.iO.prototype={}
@@ -33205,7 +33205,7 @@ r.toString
 r=M.aj(m,L.bJ(n.Na(n.a.c.f),m,m,m,A.cf(m,m,m,m,m,m,m,m,m,m,m,15,m,m,m,m,!0,m,m,m,m,m,m,m),m,m),C.j,m,m,new S.bf(m,m,new F.cG(new Y.ch(r,5,C.P),C.q,C.q,C.q),m,m,m,C.y),m,m,m,new V.a0(10,10,10,10),m,m,k)
 o=C.w.h(0,200)
 o.toString
-return M.DI(T.fV(C.aM,H.a([i,j,h,T.hD(m,M.aj(m,E.aes(T.cW(H.a([s,q,r,M.aj(m,T.cW(H.a([L.bJ("Info Toko",m,m,m,A.cf(m,m,m,m,m,m,m,m,m,m,m,25,m,C.ad,m,m,!0,m,m,m,m,m,m,m),m,m),T.cv(m,20,m),n.zy(C.p8,"Owner",n.a.c.a),n.zy(C.p5,"Hari Buka",n.a.c.y),n.zy(C.p7,"Jam Buka",n.a.c.z),T.cv(m,100,m)],p),C.U,C.X,C.a1),C.j,m,m,new S.bf(m,m,new F.cG(new Y.ch(o,5,C.P),C.q,C.q,C.q),m,m,m,C.y),m,m,m,new V.a0(10,10,10,10),m,m,k)],p),C.U,C.X,C.a1)),C.j,m,m,m,m,l.b*0.8,m,m,m,m,k),m,m,0,m,250,m)],p),C.aL))},
+return M.DI(T.fV(C.aM,H.a([i,j,h,T.hD(m,M.aj(m,E.aes(T.cW(H.a([s,q,r,M.aj(m,T.cW(H.a([L.bJ("Info Toko",m,m,m,A.cf(m,m,m,m,m,m,m,m,m,m,m,25,m,C.ad,m,m,!0,m,m,m,m,m,m,m),m,m),T.cv(m,20,m),n.zy(C.p8,"Owner",n.a.c.a),n.zy(C.p5,"Hari Buka",n.a.c.y),n.zy(C.p7,"Jam Buka",n.a.c.z),T.cv(m,120,m)],p),C.U,C.X,C.a1),C.j,m,m,new S.bf(m,m,new F.cG(new Y.ch(o,5,C.P),C.q,C.q,C.q),m,m,m,C.y),m,m,m,new V.a0(10,10,10,10),m,m,k)],p),C.U,C.X,C.a1)),C.j,m,m,m,m,l.b*0.8,m,m,m,m,k),m,m,0,m,250,m)],p),C.aL))},
 zy:function(a,b,c){var s,r=null,q=C.aa.h(0,100).a
 q=P.an(204,q>>>16&255,q>>>8&255,q&255)
 s=t.D
