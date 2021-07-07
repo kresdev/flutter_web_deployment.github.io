@@ -26,9 +26,9 @@ const RESOURCES = {
 "icons/blitetangga-512.png": "41857185bc308128d2f896c872a6b00a",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "a19f27e96f8bc3ee680b95ec6314dcf8",
-"/": "a19f27e96f8bc3ee680b95ec6314dcf8",
-"main.dart.js": "08bcb2773d82768b4d212cf337f29a34",
+"index.html": "c415ba9cd074c117e67decacdf5fb501",
+"/": "c415ba9cd074c117e67decacdf5fb501",
+"main.dart.js": "4ca95c8fdd3e0fdd3f53e507b8569c86",
 "manifest.json": "38ef937088e9ed0f177c1b1f734dd14b",
 "version.json": "06eadab671ac5c5ec334427e8a5edd2d"
 };
